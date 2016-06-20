@@ -39,3 +39,15 @@ for (var i=0; i<elements.length; i++){
 }
 
 }
+
+function getCol (element){
+
+for (var i=0; i<elements.length; i++){
+
+    if (element(i).classList.contains('col- ')){return arr[1];}
+
+}
+
+}
+
+

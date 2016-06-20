@@ -24,4 +24,18 @@ function markCell (evt) {
 
     evt.target.classList.toggle('marked');
 }
-startGame()
+startGame();
+
+
+var board  = {cells[]};
+var arr = str.split('-')
+
+function getRow (element){
+
+for (var i=0; i<elements.length; i++){
+
+    if (element(i).classList.contains('row- ')){return arr[1];}
+
+}
+
+}
